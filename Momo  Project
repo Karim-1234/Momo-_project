@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main (){
+int pin, option;
+cout<<"1.Check balance"<<endl;
+cout<<"2.Send money"<<endl;
+cout<<"3.Change pin"<<endl;
+cout<<"4.Allow cashout"<<endl;
+cout<<"Select Option"<<endl;
+cin>>option;
+if(option==1){
+cout<<"Enter Pin"<<endl;
+cin>>pin;
+}
+if(pin!=0000){
+cout<<"Wrong pin, try again"<<endl;
+}
+else if(pin==0000){
+cout<<"Your Account Balance is 1,000"<<endl;
+}
+
+return 0;
+
+}
